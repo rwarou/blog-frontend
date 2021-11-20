@@ -14,7 +14,7 @@ function App() {
 
 function home() {
   return <div>
-    <h2>homehomehome</h2>
+    <h2>homehomehomehome</h2>
   </div>
 }
 
