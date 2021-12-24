@@ -1,21 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
+import { Dashboard } from './pages'
 
 function App() {
   return (
     <BrowserRouter>
       <Switch>
-        <Route exact path='/' component={home}/>
+        <Route exact path='/' component={Dashboard}/>
       </Switch>
     </BrowserRouter>
   );
-}
-
-function home() {
-  return <div>
-    <h2>homehomehomehome</h2>
-  </div>
 }
 
 export default App;
